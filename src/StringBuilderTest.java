@@ -30,6 +30,10 @@ public class StringBuilderTest {
         d.append("friend");
         //d.append(" my ").append("friend");  // аналог двух строк вверху
         System.out.println(d);    //
-
+        System.out.println("---------------------------- Printf ---------------------------");
+                                            // Хороший материал, позже поэксперементировать.
+                                            // http://study-java.ru/uroki-java/formatirovanie-chisel-i-texta-v-java/
+        System.out.printf("%s\n","Privet mir of Printf");
+        System.out.println("May");
     }
 }
