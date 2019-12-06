@@ -3,7 +3,7 @@ public class StaticTest {
         NewHuman.description = "Переменная класса";
         NewHuman.getDescription();  // Выводим значение переменной, без создания обьекта
         NewHuman demiurg = new NewHuman("Евгений",40);  // создаем новый обьект demiurg с двумя аргументами
-        demiurg.description = "Новая переменная класса";  // переопределяем переменную класса, через обьект
+        NewHuman.description = "Новая переменная класса";  // переопределяем переменную класса, через обьект
         NewHuman.getDescription();  // Выводим значение переменной, без создания обьекта
         System.out.println();       // чистая строка
         demiurg.getAllFields();     // запускаем метод через обьект demiurg

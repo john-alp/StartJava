@@ -1,5 +1,6 @@
 public class СonstructorTest {
     public static void main(String[] args) {
+
         Human tanya = new Human();                              // пустой обьект tanya, сработает 1 конструктор
         Human demiurg = new Human("demiurg",41);   // создаю обьект demiurg, с именем и возрастом, сработает 2 конструктор
         demiurg.setName("May");                                    // могу перезаписать переменную name, вызвав сеттер set.Name
@@ -12,6 +13,7 @@ public class СonstructorTest {
  class Human{                                     // класс
    private String name;                                    // поля
    private int age;
+   static final String CONSTANT = "CONSTANT MAY - константы нельзя изменить и пишутся БОЛЬШИМИ буквами";
 
     public Human(){
         System.out.println("Привет из первого, пустого конструктора!");
