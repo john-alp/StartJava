@@ -1,3 +1,7 @@
+/**
+ *
+ * Static делает метод достоянием класса, а не объекта, поэтому всегда будет вызываться метод суперкласса.
+ */
 public class StaticTest {
     public static void main(String[] args){
         NewHuman.description = "Переменная класса";
