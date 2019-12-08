@@ -30,7 +30,7 @@ public class TypeConversion {
         float f = (float)d;
         System.out.println(f);
 
-        int t = 123;
+        int t = 123; // Все целые числа являются вещественными
         double j = t;
         System.out.println(j);
 
