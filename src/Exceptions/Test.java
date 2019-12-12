@@ -10,6 +10,20 @@ import java.util.*;
  *  Нужно указывать Джаве, на то, что если не получится загрузить или найти файл, например "test2"
  *  Все исключения наследуются от класса Exceptions
  *  если создать метод, где нужно исключение, то из места откуда вызывается метод, тоже нужно описывать исключения.
+ *  можно вносить сколько угодно исключений через запятую - throws FileNotFoundException, итд
+ *
+ *  catch может быть много, для обработки каждого исключения
+ *  catch{ FileNotFoundException | (логическое или) ParseException | итд) если нужно одно решения для всех исключений
+ *  или так
+ *  catch{FileNotFoundException
+ *     что делаем
+ *  }catch{ParseException
+ *      что делаем
+ *
+ *  сatch(Exception e){
+ *  }catch(ParseException p) - не имеет смысл, так как выполнение сверху вниз - выполнится Exception, а до ParseException выполнение не дойдёт
+ *  ParseException наследуется от Exception
+ *
  */
 public class Test {
     public static void main(String[] args){ //throws FileNotFoundException { - в случае отсутствия файла выбрасываем FileNotFoundException

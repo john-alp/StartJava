@@ -1,5 +1,7 @@
 package Abstract;
 
+import java.util.Date;
+
 /**
  *
  *
@@ -20,6 +22,7 @@ public class Test {
         cat.eat();  // eat определён в абстрактном родительском классе Animal
         cat.makeSound2();   // makeSound, метод из класса кэт
         dog.makeSound2();   // из класса дог
+
 
 
     }

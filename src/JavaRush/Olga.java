@@ -1,6 +1,6 @@
 package JavaRush;
 
-public class Test {
+public class Olga {
     public static void main(String[] args) {
         Student olga = new Student();
         olga.name = "Olga";
@@ -18,7 +18,7 @@ public class Test {
         System.out.println("Olga is " + olga.age+olga.name);
         System.out.println("Vera is " + vera.age+vera.name);
     }
-    private static void ageSwap(Student a, Student b)
+    private static void ageSwap(Student a, Student b)   // что интересно, у метода тип данных указан Класс и из него подтягиваются данные из полей
     {
         int c = a.age;
         a.age = b.age;
@@ -28,7 +28,7 @@ public class Test {
         b.name = w;
     }
 
-    static class Student
+    static class Student   // Класс обьявлен в классе :-о
     {
         String name;
         int age;

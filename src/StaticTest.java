@@ -22,7 +22,7 @@ public class StaticTest {
     private String name;     // переменная обьекта
     private int age;
 
-    public static String aName = "Где твоё имя?";  // переменная класса (static) будет доступна для всех методов
+    public static String aName = "Где твоё имя?";  // переменная класса (static) будет доступна для всех методов ///переменные классов, или статические
     public static int aAge = 100;
     public static String description;
 
