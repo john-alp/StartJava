@@ -10,6 +10,7 @@ import java.util.Scanner;
 */
 public class Lesson03Task02 {
     public static void main(String[] args) {
+        while (true){
         int defaultCourse = 64;
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите текущий курс доллара.");
@@ -18,6 +19,9 @@ public class Lesson03Task02 {
         double summ = scan.nextDouble();
 
         convertEurToUsd(courseDollar,summ);
+            System.out.println();
+            System.out.println();
+    }
     }
     private static void convertEurToUsd(double course, double summa){
         System.out.println("За "+summa+" рублей, можно выручить "+summa/course+" северо-американских долларов.");

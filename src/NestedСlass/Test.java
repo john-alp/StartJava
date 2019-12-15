@@ -10,5 +10,6 @@ public class Test {
         electrocar.start();
         Electrocar.Battery battery = new Electrocar.Battery();
         battery.charge();
+
     }
 }

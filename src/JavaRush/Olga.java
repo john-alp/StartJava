@@ -20,6 +20,7 @@ public class Olga {
     }
     private static void ageSwap(Student a, Student b)   // что интересно, у метода тип данных указан Класс и из него подтягиваются данные из полей
     {
+        System.out.println("a "+a);
         int c = a.age;
         a.age = b.age;
         b.age = c;

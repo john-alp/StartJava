@@ -1,4 +1,4 @@
-public class Loops {
+public class WhileTest {
     public static void main(String[] ars){
         int a = 0;
         int b = 3;

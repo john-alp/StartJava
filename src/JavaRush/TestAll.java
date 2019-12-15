@@ -1,42 +1,32 @@
 package JavaRush;
 
+import java.io.*;
+
 import java.util.Date;
 import java.util.Scanner;
 
-/* StarCraft
-Создать 10 зергов, 5 протосов и 12 терран.
-Дать им всем уникальные имена.
-*/
-
 
 public class TestAll {
-        public static void main(String[] args) {
-            Zerg zerg = new Zerg("Strong");
-            Protos protos = new Protos("Stream");
-            Terran terran = new Terran("Tirran");
-            System.out.println(zerg.name);
-        }
+    public static void main(String[] args) {
+        May cat = new May();
+        cat.id = 1;
+        cat.name = "Мурзик";
+         start(cat);
+        System.out.println("Переопределил:");
+        System.out.println(cat.id+" "+cat.name);
     }
+     static void start(May a){
+        int id=2;
+        String name="Мявк";
+        System.out.println("a id "+a.id+" a name  "+a.name);
+        a.id = 3;
+        a.name = "hhhhh";
 
-class Zerg{
+    }
+}
+
+
+class May{
+    int id;
     String name;
-
-    public Zerg(String str){
-    this.name=str;
-    }
-
-
 }
-class Protos{
-    public Protos(String ... name){
-
-    }
-
-}
-class Terran{
-    public Terran(String... may){
-
-    }
-}
-
-

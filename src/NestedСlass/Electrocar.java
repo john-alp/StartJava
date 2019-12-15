@@ -29,9 +29,22 @@ public class Electrocar {
         this.id = id;
     }
     public void start(){
+      final int x = 1;
       Motor motor = new Motor();    // в методе создаем обьект вложенного класса мотор и переменной класса мотор
       motor.startMotor();           // запускаем метод из класса мотор
-      System.out.println("Electrocar "+id+" in starting!");
+        System.out.println("Electrocar "+id+" in starting!");
+      // третий метод создание вложенного класса в методе
+        // в методе вложенного класса доступ к полям как в классе электрокар, так и доступ к полям метода. Ограничение - переменная должена быть финализированна
+       class SomeClass{  // чем-то похоже на анонимные классы
+           public void somemetod(){
+               System.out.println(x);
+               System.out.println(id);
+           }
+       SomeClass someClass = new SomeClass();
+           private void test(Object object){
+
+           }
+       }
     }
 
 }
