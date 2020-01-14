@@ -1,5 +1,4 @@
 package Calculate;
-
 import java.util.Scanner;
 
 /**
@@ -8,22 +7,21 @@ import java.util.Scanner;
 public class Works {
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
-        Calculate xz = new Calculate();
-        String  plus = "+";
+        //Calculate xz = new Calculate();
+        int plus=1;
         int a = scan.nextInt();
-        String c = scan.next();
+        int c = scan.nextInt();
         int b = scan.nextInt();
         System.out.println("a "+a);
         System.out.println("c "+c);
         System.out.println("b "+b);
-        System.out.println("plus "+plus);
-        if(plus == plus){
-
-            int result = xz.slozhenie(a, b);
-            System.out.println(result);
+        if(plus == c){
+            System.out.println("Net menya..");
+            //int result = xz.slozhenie(a, b);
+            //System.out.println(result);
         }
 
-
+        System.out.println(c+" Ne ravno "+plus);
     }
 }
 class Calculate{

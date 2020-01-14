@@ -1,32 +1,23 @@
 package JavaRush;
 
-import java.io.*;
 
-import java.util.Date;
-import java.util.Scanner;
-
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 
 public class TestAll {
     public static void main(String[] args) {
-        May cat = new May();
-        cat.id = 1;
-        cat.name = "Мурзик";
-         start(cat);
-        System.out.println("Переопределил:");
-        System.out.println(cat.id+" "+cat.name);
-    }
-     static void start(May a){
-        int id=2;
-        String name="Мявк";
-        System.out.println("a id "+a.id+" a name  "+a.name);
-        a.id = 3;
-        a.name = "hhhhh";
+        HashMap<Integer, String> passportAndNames = new HashMap<>();
+         passportAndNames.put(788990, "Крокодилов Иван Иванович");
+         passportAndNames.put(980023, "Царь Петр Великий");
+        System.out.println(passportAndNames);
+
+        List<Integer> linkedList = new LinkedList<>();
+
 
     }
 }
 
 
-class May{
-    int id;
-    String name;
-}
+
+
