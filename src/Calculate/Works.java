@@ -1,26 +1,30 @@
 package Calculate;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /**
  *  Первый супер проект - калькулятор. Начало 08.12.2019
  */
 public class Works {
-    public static void main(String[] args){
-        Scanner scan = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         //Calculate xz = new Calculate();
-        int plus=1;
-        int a = scan.nextInt();
-        int c = scan.nextInt();
-        int b = scan.nextInt();
-        System.out.println("a "+a);
-        System.out.println("c "+c);
-        System.out.println("b "+b);
-        if(plus == c){
+        int plus=+;
+        int aDigit = Integer.parseInt(bf.readLine());
+        String cSign = bf.readLine();
+        int bDigit = Integer.parseInt(bf.readLine());
+        System.out.println("a "+aDigit);
+        System.out.println("c "+cSign);
+        System.out.println("b "+bDigit);
+        if(plus == cSign){
             System.out.println("Net menya..");
             //int result = xz.slozhenie(a, b);
             //System.out.println(result);
         }
-
+        
+        // if(name.equals(name1)) System.out.println("Name equals!");
         System.out.println(c+" Ne ravno "+plus);
     }
 }
