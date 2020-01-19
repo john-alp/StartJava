@@ -1,3 +1,5 @@
+package StartJavaNeil;
+
 import java.util.Scanner;
 
 public class Switch {

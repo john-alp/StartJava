@@ -1,3 +1,5 @@
+package StartJavaNeil;
+
 public class Multidimensional_arrays {
     public static void main(String[] args){
         int[][] numbers = {{1,2,3},   // Двухмерный массив. Первая цифра - номер строки, вторая номер столбца

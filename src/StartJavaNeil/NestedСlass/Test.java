@@ -1,4 +1,4 @@
-package NestedСlass;
+package StartJavaNeil.NestedСlass;
 /** 14.12.2019
  *  Урок 43  Вложенные классы
  *

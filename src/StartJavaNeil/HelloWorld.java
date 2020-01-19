@@ -1,3 +1,5 @@
+package StartJavaNeil;
+
 /**
  * Урок 1. Поехали.
  *

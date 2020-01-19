@@ -1,4 +1,4 @@
-package Polymorphism;
+package StartJavaNeil.Polymorphism;
 
 public class Cat extends Animal {
     /*

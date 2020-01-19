@@ -12,7 +12,7 @@ public class TestAll {
          passportAndNames.put(980023, "Царь Петр Великий");
         System.out.println(passportAndNames);
 
-        List<Integer> linkedList = new LinkedList<>();
+
 
 
     }

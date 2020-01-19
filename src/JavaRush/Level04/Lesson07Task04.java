@@ -37,3 +37,13 @@ while (true){
         System.out.println("количество положительных чисел: "+plus);
     }
 }
+/*
+int d = 0;
+        if (a > 0)
+            d++;
+        if (b > 0)
+            d++;
+        if (c > 0)
+            d++;
+        System.out.println(d);
+ */

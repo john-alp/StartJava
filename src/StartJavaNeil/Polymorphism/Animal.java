@@ -1,4 +1,4 @@
-package Polymorphism;
+package StartJavaNeil.Polymorphism;
 
 /**
  *  Общий класс для всех животных

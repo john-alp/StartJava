@@ -1,3 +1,5 @@
+package StartJavaNeil;
+
 public class Arrays_of_String {
     public static void main(String[] args){
         int[] numbers = new int[5];

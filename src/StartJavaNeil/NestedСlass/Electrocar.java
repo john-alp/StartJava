@@ -1,4 +1,4 @@
-package NestedСlass;
+package StartJavaNeil.NestedСlass;
 
 
 public class Electrocar {

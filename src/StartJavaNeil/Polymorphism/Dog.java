@@ -1,4 +1,4 @@
-package Polymorphism;
+package StartJavaNeil.Polymorphism;
 
 public class Dog extends Animal {
     public void bark(){

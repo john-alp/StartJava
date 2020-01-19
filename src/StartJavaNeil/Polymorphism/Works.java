@@ -1,4 +1,5 @@
-package Polymorphism;
+package StartJavaNeil.Polymorphism;
+
 
 /**
  *  Полиформизм. Урок Полиформизм. 07.12.2019
