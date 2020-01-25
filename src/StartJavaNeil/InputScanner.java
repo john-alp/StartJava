@@ -1,3 +1,5 @@
+package StartJavaNeil;
+
 import java.util.Scanner;    // Импорт пакета
 
 public class InputScanner {

@@ -9,10 +9,10 @@ public class bubbles {
           array[2] = 7;
           array[3] = 6;
 
-          for (int i = 3; i == 0; i--){
-             if (array[i] > array[i-1]){
+          for (int i = 3; i == 0; i++){
+             if (array[i] > array[i+1]){
                  temp = array[i];
-                 array.
+
              }
 
           }
