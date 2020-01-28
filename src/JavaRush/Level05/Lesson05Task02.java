@@ -21,7 +21,7 @@ public class Lesson05Task02 {
 class Cat {
     private int age, weight, strength;
     private String name;
-
+    // сеттер
     public void setAll(int age, int weight, int strength, String name) {
         this.age = age;
         this.weight = weight;

@@ -9,14 +9,13 @@ package JavaRush.Level02;
 
 public class Lesson08Task02 {
     public static void main(String[] args) {
-        int a=30, b=30;
+        int a=-30, b=30;
         System.out.println("Введёные числа: а "+a+" b "+b);
-        int result;
         System.out.println("Максимальное число: "+returnMax(a,b));
     }
     private static int returnMax(int a, int b){
-        int result=0;
-        if (a<b) result=b;
+        int result = 0;
+        if (a < b) result = b;
         else result = a;
         return result;
     }
