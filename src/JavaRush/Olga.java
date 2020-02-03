@@ -2,6 +2,7 @@ package JavaRush;
 
 public class Olga {
     public static void main(String[] args) {
+
         Student olga = new Student();
         olga.name = "Olga";
         olga.age = 21;
