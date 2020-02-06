@@ -1,4 +1,4 @@
-package Interfaces;
+package StartJavaNeil.Interfaces;
 
 /**
  * Урок 26 Интерфейсы. 06.12.2019

@@ -1,4 +1,4 @@
-package Interfaces;
+package StartJavaNeil.Interfaces;
 
 public class Person implements Info {
     public String name;

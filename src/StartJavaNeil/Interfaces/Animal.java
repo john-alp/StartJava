@@ -1,6 +1,6 @@
-package Interfaces;
+package StartJavaNeil.Interfaces;
 
-public class Animal implements Info{
+public class Animal implements Info {
     public int id;
 
     public Animal(int id){
