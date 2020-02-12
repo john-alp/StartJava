@@ -1,4 +1,5 @@
-package Inheritance; // наследование, класс Dog наследует поля и методы класса Animal
+
+package StartJavaNeil.Inheritance; // наследование, класс Dog наследует поля и методы класса Animal
 
 /**
  *  06.12.2019   Урок 25 Наследование

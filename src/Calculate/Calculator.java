@@ -43,7 +43,7 @@ import javax.swing.*;
             panel = new JPanel();
             panel.setLayout(new GridLayout(4, 4));
 
-            addButton("7", insert);
+            addButton("77", insert);
             addButton("8", insert);
             addButton("9", insert);
             addButton("/", command);

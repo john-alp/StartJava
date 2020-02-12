@@ -11,8 +11,8 @@ public class Fibonacci {
         arr [0] = 0;
         arr [1] = 1;
         for (int i=2; i<=n; i++){
-            System.out.println();
             arr [i] = arr[i-1] + arr[i-2];
+            System.out.println(arr[i]);
         }
     return arr[n];
     }

@@ -1,4 +1,4 @@
-package Inheritance;
+package StartJavaNeil.Inheritance;
 
 public class Animal {
     String name = "животное!";

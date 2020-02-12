@@ -2,7 +2,7 @@
  * Свободное прстранство имён в package
  */
 
-package Inheritance;
+package StartJavaNeil.Inheritance;
 
 // Dog тоже animal, она может есть, и она может спать. В данном случае собака более узкое понятие, чем животное
 public class Dog extends Animal {

@@ -1,12 +1,10 @@
-package ReadingFile;
+package StartJavaNeil.ReadingFile;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-/**
- * Урок 36  Чтение из  файла
- *
+/** Урок 36  Чтение из  файла
  *  считываем строки
  *  may
  *  may2
