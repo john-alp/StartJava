@@ -1,4 +1,4 @@
-package Transformations;
+package StartJavaNeil.Transformations;
 
 public class Animal {
     public void eat(){

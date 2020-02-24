@@ -3,8 +3,14 @@ package JavaNeil.JavaCollectionsFramework02.HashMap;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * 24.02.2020 HashMap
+ *
+ *
+ */
 public class TestHashMap {
     // таблица ключ/значение  Реализуют метод тоСтринг
+    // нет никакого порядка - выводит результат как хочет   но быстро
     public static void main(String[] args) {
 
         Map<Integer, String> map = new HashMap<>();

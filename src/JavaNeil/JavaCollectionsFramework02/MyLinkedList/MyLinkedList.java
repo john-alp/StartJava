@@ -20,7 +20,6 @@ public class MyLinkedList {
             // Создаём времменный узел
             Node temp = head;
             while (temp.getNext() != null) {
-                System.out.println("Who is it ..."+temp);
                 temp = temp.getNext();
             }
             // Добавляем узел  [1]->[2]-->[3]
@@ -64,13 +63,13 @@ public class MyLinkedList {
             this.value = value;
         }
 
-        @Override
-        public String toString() {
-            return "Node{" +
-                    "value=" + value +
-                    ", next=" + next +
-                    '}';
-        }
+//        @Override
+//        public String toString() {
+//            return "Node{" +
+//                    "value=" + value +
+//                    ", next=" + next +
+//                    '}';
+//        }
 
         // Сеттеры и геттеры
         public int getValue() {
