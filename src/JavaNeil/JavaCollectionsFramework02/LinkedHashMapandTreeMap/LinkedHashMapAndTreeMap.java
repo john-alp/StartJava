@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /** 24.02.2020  LinkedHashMap и TreeMap
- *
+ * public native - native реализация метода вынесенна, например на C++
  * Могу сказать, что всё понятно
  */
 
