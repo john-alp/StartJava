@@ -1,4 +1,4 @@
-package Exceptions;
+package StartJavaNeil.Exceptions;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ import java.util.Scanner;
  * Исключения нужно выбрасывать, если в ходе выполнения программы, она пришла в состояние в котором не должна быть
  */
 public class Test2 {
-    public static void main(String[] args) throws ScannerExceptions{
+    public static void main(String[] args) throws Exceptions.ScannerExceptions {
         int count=0;
         Scanner scanner = new Scanner(System.in);
         //// Второй пример
@@ -20,7 +20,7 @@ public class Test2 {
             count++;
             System.out.println("Цикл номер "+count);
             if(x!=0){
-                    throw new ScannerExceptions("Нет нуля!!"); // Вызываем наше исключение ScannerExceptions и передаём описание проблеммы
+                    throw new Exceptions.ScannerExceptions("Нет нуля!!"); // Вызываем наше исключение ScannerExceptions и передаём описание проблеммы
 
 
             }

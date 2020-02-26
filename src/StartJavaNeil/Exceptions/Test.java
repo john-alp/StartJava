@@ -1,4 +1,4 @@
-package Exceptions;
+package StartJavaNeil.Exceptions;
 
 import java.io.File;
 import java.io.FileNotFoundException;
