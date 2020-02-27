@@ -11,25 +11,22 @@ import java.io.InputStreamReader;
 public class Calculate {
     //public static void main(String[] may) throws IOException, InterruptedException {
     public static void main(String[] args) throws InterruptedException {
-
         double first = 0;
         double second = 0;
+        String exit = "no";
+        String symbol = null;
         Operation operation = new Operation();
         System.out.println("Calculate...  (c)demiurg  v 2.0");
-        String exit = "no";
         while (!exit.equals("yes")){
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Enter the first argument.. ");
-
         try {
                 first = Double.parseDouble(reader.readLine());
             } catch (Exception e) {
-                System.out.println("Error... may bee..");
+                System.out.println("Error... may bee..    "+e);
+                continue;
             }
-
-
         System.out.println("Enter a calculation operation..             (Help:  - + * / ^)");
-            String symbol = null;
             try {
                 symbol = reader.readLine();
             } catch (IOException e) {
