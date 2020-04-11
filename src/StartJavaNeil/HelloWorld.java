@@ -26,7 +26,7 @@ public class HelloWorld {
 int s = may7;
         System.out.println(s);
 
-        System.out.println("Меня зовут " + name + ", мне всего " + age + ". Я хочу стать успешным программистом, и поэтому кричу - " + message);
+        System.out.println("Меня зовут " + name + ", мне всего " + age + ". Я хочу стать успешным программистом, и поэтому докладываю - " + message);
     }
 }
 

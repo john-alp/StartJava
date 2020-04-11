@@ -8,7 +8,7 @@ import java.io.ObjectOutputStream;
 
 /** Урок 46
  *  29.12.2019  Серилизация массивов
- *  будем записывать омассивы в файл
+ *  будем записывать массивы в файл
 */
 public class WriteObject {
     public static void main(String[] args) {

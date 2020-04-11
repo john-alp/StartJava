@@ -22,11 +22,10 @@ public class Break_Continue {
         System.out.println("Рассматриваем работу \"Continue\"");
         for(int w=0; w<=10; w++){
             if(w%2==0){                    //  %2 Остаток после деления на 2, если остаток 0, то срабатывает continue
-               // System.out.println("Чётные числа");
-               // System.out.println(w);
+               System.out.println("Чётные числа: "+w);
                 continue;
             }
-            System.out.println("Нечётные числа"+w);
+            System.out.println("Нечётные числа: "+w);
         }
     }
 
