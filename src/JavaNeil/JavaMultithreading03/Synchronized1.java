@@ -12,8 +12,16 @@ public class Synchronized1 {
 
     }
     public synchronized void increment(){
-        counter++;
+        counter++; // Операция не атомарная counter = counter + 1  (3. считывание переменной counter, прибавление 1, запись переменной)
     }
+
+    /*
+    public void increment() {
+        synchronized (this) {  // эта конструкция называется синхронайз блок и эквивалентна public synchronized void increment
+            counter++;
+        }
+    }
+    */
 
     public void doWork() throws InterruptedException {
         while (true) {

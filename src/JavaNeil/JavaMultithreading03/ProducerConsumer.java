@@ -7,6 +7,7 @@ import java.util.concurrent.BlockingQueue;
 public class ProducerConsumer {
     private static BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(5);
     private volatile static int count = 0;
+    Object lock = new Object();
     public static void main (String[] args) throws InterruptedException {
         Thread thread = new Thread(new Runnable() {
             @Override
@@ -36,11 +37,14 @@ public class ProducerConsumer {
     }
     private static void produce() throws InterruptedException {
         Random random = new Random();
+        synchronized (new Object()){
         while(true){
-            queue.put(random.nextInt(30));
+            queue.put(random.nextInt(10));
+        }
         }
     }
     private static void consumer() throws InterruptedException {
+        synchronized (new Object()){
         while (true){
            Thread.sleep(50);
             int temp = queue.take();
@@ -51,6 +55,7 @@ public class ProducerConsumer {
 
             }
             System.out.print(queue.take() + " ");
+        }
         }
     }
 }
