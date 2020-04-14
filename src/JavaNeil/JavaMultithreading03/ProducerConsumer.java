@@ -1,5 +1,10 @@
 package JavaNeil.JavaMultithreading03;
-
+/*java.util.concurrent  Параллельные коллекции облегчают разработку многопоточных программ,
+ предоставляя потокобезопасные, удачно сделанные структуры данных
+Пакет java.util.concurrent включает классы для формирования блокирующих очередей с поддержкой многопоточности.
+ Блокирующие очереди используются в тех случаях,
+когда нужно выполнить (проверить выполненение) какие-либо условия для продолжения потоками своей работы.
+ */
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
