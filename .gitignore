@@ -1,2 +1,6 @@
-# Project exclude paths
-/out/
+.idea
+out
+target
+*.iml
+log
+*.patch
