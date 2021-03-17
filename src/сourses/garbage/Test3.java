@@ -1,4 +1,4 @@
-package Practice.Calculate;
+package сourses.garbage;
 
 public class Test3 {
     public static void main(String[] args) {

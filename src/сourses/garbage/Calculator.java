@@ -1,4 +1,4 @@
-package Practice.Calculate;
+package сourses.garbage;
 
 import java.awt.*;
 import java.awt.event.*;

@@ -1,4 +1,4 @@
-package сourses.Tanya.Level04.lesson04;
+package сourses.javaRush.lesson04;
 
 import java.util.Scanner;
 
