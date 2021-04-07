@@ -11,17 +11,18 @@ public class Olga {
         vera.name = "Veronika";
         vera.age = 15;
 
-        System.out.println("Olga is " + olga.age+olga.name);
-        System.out.println("Vera is " + vera.age+vera.name);
+        System.out.println("Olga is " + olga.age + olga.name);
+        System.out.println("Vera is " + vera.age + vera.name);
 
         ageSwap(olga, vera);
 
-        System.out.println("Olga is " + olga.age+olga.name);
-        System.out.println("Vera is " + vera.age+vera.name);
+        System.out.println("Olga is " + olga.age + olga.name);
+        System.out.println("Vera is " + vera.age + vera.name);
     }
+
     private static void ageSwap(Student a, Student b)   // что интересно, у метода тип данных указан Класс и из него подтягиваются данные из полей
     {
-        System.out.println("a "+a);
+        System.out.println("a " + a);
         int c = a.age;
         a.age = b.age;
         b.age = c;

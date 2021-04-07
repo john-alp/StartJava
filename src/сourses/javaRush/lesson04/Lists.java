@@ -1,9 +1,6 @@
 package сourses.javaRush.lesson04;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 public class Lists {
     public static void main(String[] args) {
