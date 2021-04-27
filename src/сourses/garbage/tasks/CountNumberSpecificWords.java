@@ -19,14 +19,11 @@ public class CountNumberSpecificWords {
         String text = "empty of char";
         int i = 0;
         int character = 0;
-        try (FileReader fileReader = new FileReader("resources/crocodileEng.txt")) {
-            while ((character = fileReader.read()) != -1) {
+        try (BufferedReader bufferedReader = new BufferedReader(new FileReader("resources/pomnishiEgo.txt"))) {
+            while ((character = bufferedReader.read()) != -1) {
 //                System.out.println(i++);
                text = stringBuilder.append((char)character).toString();
             }
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -40,8 +37,6 @@ public class CountNumberSpecificWords {
                 // System.out.println(text);
                 //  text = br.readLine();
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -49,16 +44,20 @@ public class CountNumberSpecificWords {
     }
 
     private String fileAnalysis() {
+        String result = null;
         Map<String, Integer> map = new HashMap<>();
 
-        for (String str : fileReaderMethodChar().split(" ")) {
+//        result = fileReaderMethodChar().replaceAll("\\s*,\\s*$", " ").toLowerCase();
+        result = fileReaderMethodChar().replaceAll("[?.,;-]", "").replaceAll("[\\s]{2,}", " ")
+                .toLowerCase();
+
+        for (String str : result.split(" ")) {
             if (map.containsKey(str)) {
                 map.put(str, map.get(str) + 1);
             } else {
                 map.put(str, 1);
             }
         }
-        //System.out.println(map.toString());
         return map.toString();
     }
 
