@@ -10,8 +10,8 @@ import java.nio.charset.Charset;
  * задом наперёд без использования встроенных в String функций
  */
 
-public class StringOpposite {
-    final static String STRING = "abc";
+class StringOpposite {
+    final static String STRING = "Equals";
     String result = "";
 
     // example char
